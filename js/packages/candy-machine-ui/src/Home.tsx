@@ -7,6 +7,7 @@ import Paper from '@material-ui/core/Paper';
 import Alert from '@material-ui/lab/Alert';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
+import Navbar from './Navbar';
 import { PublicKey, Transaction } from '@solana/web3.js';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { WalletDialogButton } from '@solana/wallet-adapter-material-ui';
@@ -292,8 +293,20 @@ const Home = (props: HomeProps) => {
   ]);
 
   return (
+    <>
+    <Navbar />
     <Container style={{ marginTop: 100 }}>
       <Container maxWidth="xs" style={{ position: 'relative' }}>
+        <Grid
+          container
+          direction="row"
+          justifyContent="center"
+          wrap="nowrap"
+        >
+        <Typography variant="body2" color="textPrimary" style={{margin: 30}}>
+            <img src="preview.gif" width="200px" alt="smoking-zombies-preview" />
+        </Typography>
+        </Grid>
         <Paper
           style={{
             padding: 24,
@@ -390,7 +403,7 @@ const Home = (props: HomeProps) => {
                               display="block"
                               style={{ fontWeight: 'bold' }}
                             >
-                              UNTIL PUBLIC MINT
+                              UNTIL PRESALE
                             </Typography>
                           )}
                       </>
@@ -522,6 +535,7 @@ const Home = (props: HomeProps) => {
         </Alert>
       </Snackbar>
     </Container>
+    </>
   );
 };
 

@@ -19,7 +19,7 @@ Gettting started and usage instructions can be found at https://docs.metaplex.co
   "solTreasuryAccount": null,
   "splTokenAccount": null,
   "splToken": null,
-  "goLiveDate": "11 Dec 2021 13:00:00 CST",
+  "goLiveDate": "3 Apr 2022 23:00:00 CST",
   "endSettings": null,
   "whitelistMintSettings": null,
   "hiddenSettings": null,

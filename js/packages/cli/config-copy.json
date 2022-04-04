@@ -1,0 +1,30 @@
+{
+  "price": 0.5,
+  "number": 2,
+  "gatekeeper": {
+    "gatekeeperNetwork": "ignREusXmGrscGNUesoU9mxfds9AiYTezUKex2PsZV6",
+    "expireOnUse": true
+  },
+  "solTreasuryAccount": "9cUgMbpBgMT5owXnFrrJiRxMMWjpKHQgXz8bvwtPFpuG",
+  "splTokenAccount": "6478RPJXney5fAH8AcTTJqAJHm6pfCpEhS4FG6X9dhjP",
+  "splToken": "4meHi41MKcrwULxCCwrNfZnd9v6E5wEP86N7KajfpSpj",
+  "goLiveDate": "4 Apr 2022 15:40:00 GMT",
+  "endSettings": {
+    "endSettingType": { "date":true },
+    "value":  "4 Apr 2022 15:55:00 GMT"
+  },
+  "whitelistMintSettings": {
+    "mode" : { "burnEveryTime": true },
+    "mint" : [ "CHXeB6eCvQxHGCF7zvNBjMRdMShxA5vExczHEQdBu9ig", "EEodDmEegxgL4hE8Ntw28J91CnaD3HWth5bWvLoeGh1L", "ABUhfWMa18VWTKXnEMSPL2VcDoeiQaxhqzfxxkzgCqSV"],
+    "presale" : true,
+    "discountPrice" : 0.4
+  },
+  "hiddenSettings": null,
+  "storage": "arweave-sol",
+  "ipfsInfuraProjectId": null,
+  "ipfsInfuraSecret": null,
+  "awsS3Bucket": null,
+  "nftStorageKey": null,
+  "noRetainAuthority": false,
+  "noMutable": false
+}

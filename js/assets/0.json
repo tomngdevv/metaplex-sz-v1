@@ -1,0 +1,42 @@
+{
+  "name": "Smoke Zombies #0",
+  "symbol": "SZ#0",
+  "description": "Collection of 4200 Smoke Zombies NFTs on the Solana blockchain.",
+  "image": "0.png",
+  "dna": "563e52ad7f62b17785a0cf602a0e4b194f09db27",
+  "edition": 0,
+  "date": 1648910229167,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "rare_b&w"
+    },
+    {
+      "trait_type": "Body",
+      "value": "heart"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "white"
+    },
+    {
+      "trait_type": "Face",
+      "value": "glasses_pink"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "hat_crown"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "smoke"
+    }
+  ],
+  "properties": {
+    "creators": [{"address": "9cUgMbpBgMT5owXnFrrJiRxMMWjpKHQgXz8bvwtPFpuG", "share": 100}],
+    "files": [{"uri": "0.png", "type": "image/png"}]
+  },
+  "collection": {
+    "name": "Smoking Zombies v1", "family": "Smoking Zombies Collections"
+  }
+}

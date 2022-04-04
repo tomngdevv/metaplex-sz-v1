@@ -1,5 +1,6 @@
 body {
-  background: #000000;
+  /* background: #000000; */
+  background-image: url("https://d33wubrfki0l68.cloudfront.net/3ebb9cd8efbbf67766645994841704d9c5138800/dd2c7/assets/images/hero-smoke-background.png");
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
